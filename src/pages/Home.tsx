@@ -16,7 +16,10 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar color="primary">
-          <IonTitle className="ion-text-center ion-text-capitalize" >Weather App</IonTitle>
+          <IonTitle className="ion-text-center ion-text-capitalize" >
+            <h1> Weather App </h1>
+            By : Prayer Pua
+            </IonTitle>
         </IonToolbar>
       </IonHeader>
 
