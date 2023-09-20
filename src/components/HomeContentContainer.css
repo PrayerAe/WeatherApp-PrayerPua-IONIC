@@ -1,0 +1,29 @@
+  .forecast_hourly_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    overflow-x: scroll;
+    padding: 1rem;
+  }
+  
+  .forecast_hourly_container > .ion-col {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    animation: fade-in 2s ease-in-out;
+  }
+
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
